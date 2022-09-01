@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.astrophotography{
+    min-height: 100vh;
+    min-width: 100%;
+    background-color:rgb(7, 7, 49);
+    background-image: url("../../assets/stars.png");
+    background-repeat: repeat;
+    background-size: 100%;
+}
+.photos{
+    padding-top: 1%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    width: 90%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+}

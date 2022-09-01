@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.about{
+    min-height: 100vh;
+    min-width: 100%;
+    background-color:rgb(7, 7, 49);
+    background-image: url("../../assets/stars.png");
+    background-repeat: repeat;
+    background-size: 100%;
+}
+#rectangle{
+    width:81%;
+    height:60%;
+    background:rgba(255, 255, 255, 0.3);
+    position: absolute;
+    left: 15%;
+}
+.description h1{
+    width: 25%;
+    color: #E4B6A5;
+    text-align: center;
+    font-size: 300%;
+    float: left;
+    padding: 5%
+}
+.description p{
+    width: 100%;
+    color: #F9EDE9;
+    font-size: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 25%;
+    padding-right: 5%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.card{
+    background-color:rgba(0, 0, 0 , 0);
+    padding: 2%;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.cards h1{
+    width: 100%;
+    color: #E4B6A5;
+    text-align: center;
+    font-size: 500%;
+    padding: 5%
+}
+.card-body{
+    color: #FFF;
+    text-align: center;
+}
+a{
+    color: #FFF;
+    padding: 1%;
+}
+img.rounded-image {
+    height: auto;
+    width: 100%;
+    padding: 15%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}

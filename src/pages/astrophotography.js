@@ -12,7 +12,7 @@ function Astrophotography () {
         <div className="photos">
           <Carousel autoPlay interval="5000" transitionTime="500">
             <div>
-                <img src="images/IMG_7234.JPG" />
+                <img src="../../assets/IMG_7234.JPG" />
             </div>
             <div>
                 <img src="images/IMG_7242.JPG" />
